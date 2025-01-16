@@ -24,7 +24,7 @@ jobs:
           file_pattern: '2024/0200-toc.md'
 
       - uses: cornelius/action-md-as-pdf@main
-        if: github.ref == 'refs/heads/integration'
+        if: github.ref == 'refs/heads/main'
         with:
           markdown_dir: 2024
           pdf_file: pdf/DRAFT-openrail-annual-report.pdf
