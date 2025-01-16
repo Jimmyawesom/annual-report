@@ -16,7 +16,7 @@ jobs:
 
       - name: Generate table of contents
         run: |
-          tools/generate_toc.py
+          tools/generate_toc.py 2024
 
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
